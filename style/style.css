@@ -1,0 +1,488 @@
+/* BODY DETAILS */
+
+body {
+	background-image: url('https://invertarium.net/dev/images/blank-page.gif');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 18px;
+}
+/* WRAPPERS AND CONTAINERS */
+
+.wrapper-outer {
+	width: 75%;
+	background: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
+	box-shadow: 0 0 5px 1px #a5a5a5;
+	border-radius: 10px;
+}
+.wrapper-inner {
+	width: 100%;
+	background: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+.container {
+	background: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 15px;
+	min-height: 380px;
+}
+.containertab {
+	border: none;
+	border-collapse: collapse;
+	padding: 0;
+	margin: 0;
+}
+/* FORMATTING */
+
+.width-100 {
+	width: 100%;
+}
+.width-90 {
+	width: 90%;
+}
+.width-75 {
+	width: 75%;
+}
+.width-50 {
+	width: 50%;
+}
+.width-25 {
+	width: 25%;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+.justify {
+	text-align: justify;
+}
+.h1-style {
+	font-family: 'Righteous', cursive;
+	color: #367469;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 28px;
+	border-bottom: 1px solid #c2d5d2;
+}
+.h2-style {
+	font-family: 'Righteous', cursive;
+	color: #367469;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 26px;
+}
+.h3-style {
+	font-family: 'Righteous', cursive;
+	color: #5a8e85;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 22px;
+}
+.h5-style {
+	font-family: 'Righteous', cursive;
+	color: #367469;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 28px;
+	border-bottom: 1px solid #c2d5d2;
+}
+/* HEADER LOGO AND NAVIGATION */
+
+#logo {
+	margin: 0;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-image: url('https://invertarium.net/dev/images/cropped-IMG_0967-2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+#logo img {
+	width: 400px;
+}
+.navbar {
+	width: 100%;
+	background: #2f4844;
+	margin: 0;
+	color: #fff;
+}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2f4844;
+}
+.navbar li {
+	float: left;
+}
+li a,
+.dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-bottom: 5px solid #4b7a2f;
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+}
+li a:hover,
+.nav:hover .dropbtn {
+	background-color: #456342;
+	border-bottom: 5px solid #a7e76f;
+	color: #a7e76f;
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+}
+.navbar li.nav {
+	display: inline-block;
+}
+.nav-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid #a7e76f;
+	z-index: 1;
+	color: #000 !important;
+}
+.nav-content a {
+	color: #000 !important;
+	padding: 12px 16px;
+	text-decoration: none;
+	border-bottom: 1px solid #a7e76f;
+	display: block;
+	text-align: left;
+}
+.nav-content a:hover {
+	background-color: #f1f1f1
+}
+.nav:hover .nav-content {
+	display: block;
+}
+/* MAIN CONTENT */
+
+.container>a:active {
+	color: #89d448;
+	text-decoration: none;
+}
+.container>a:visited {
+	color: #89d448;
+	text-decoration: none;
+}
+.container>a:hover {
+	color: #64b61d;
+	text-decoration: none;
+}
+.container>a:link {
+	color: #64b61d;
+	text-decoration: none;
+}
+/* SIDEBAR STUFFF */
+
+.sidenav>a:active {
+	color: #5f815c;
+	text-decoration: none;
+	background: #fff;
+	display: block;
+	margin-bottom: 3px;
+	border: 1px solid #c2d5d2;
+}
+.sidenav>a:visited {
+	color: #5f815c;
+	text-decoration: none;
+	background: #fff;
+	display: block;
+	margin-bottom: 3px;
+	border: 1px solid #c2d5d2;
+}
+.sidenav>a:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #5f815c;
+	display: block;
+	margin-bottom: 3px;
+	border: 1px solid #c2d5d2;
+}
+.sidenav>a:link {
+	color: #5f815c;
+	text-decoration: none;
+	background: #fff;
+	display: block;
+	margin-bottom: 3px;
+	border: 1px solid #c2d5d2;
+}
+.sidenavicons {
+	display: inline !important;
+}
+.sidebar {
+	width: 200px;
+	background: #c2d5d2;
+	/* For browsers that do not support gradients */
+	background: linear-gradient(to bottom right, #e2ecea, #ebf4f2);
+	/* Standard syntax (must be last) */
+	min-height: 300px;
+	margin-right: 16px;
+	margin-bottom: 10px;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	border-radius: 5px;
+	border: 1px solid #c2d5d2;
+	padding: 5px;
+	color: #6b9a91;
+}
+.sidebar>a:active {
+	color: #64b61d;
+	text-decoration: none;
+}
+.sidebar>a:visited {
+	color: #64b61d;
+	text-decoration: none;
+}
+.sidebar>a:hover {
+	color: #64b61d;
+	text-decoration: none;
+}
+.sidebar>a:link {
+	color: #64b61d;
+	text-decoration: none;
+}
+/* SEARCH FORM STUFF */
+
+* {
+	box-sizing: border-box;
+}
+form.search input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 70%;
+	height: 40px;
+	background: #f1f1f1;
+}
+form.search button {
+	float: left;
+	width: 30%;
+	height: 40px;
+	padding: 10px;
+	background: #456342;
+	color: white;
+	font-size: 17px;
+	border: 1px solid #2f4844;
+	border-left: none;
+	cursor: pointer;
+}
+form.search button:hover {
+	background: #5f815c;
+	border: 1px solid #2f4844;
+}
+form.search::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.accordion {
+	background: none;
+	color: #444;
+	cursor: pointer;
+	padding: 4px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+}
+.active,
+.accordion:hover {
+	background: none;
+}
+.panel {
+	padding: 0 18px;
+	display: none;
+	background: none;
+	overflow: hidden;
+}
+.accordion i {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+.right-arrow {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+.left-arrow {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+.up-arrow {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+.down-arrow {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+/* CATEGORY STYLES */
+
+.categories {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.invertcat {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #aaaaaa;
+	box-shadow: 0 0 25px 0 #999 inset;
+	border-radius: 10px;
+	float: left;
+	margin: 2px;
+	text-align: center;
+}
+.invertcat:hover {
+	border: 2px solid #7bdf3f;
+	box-shadow: 0 0 25px 0 #999 inset, 0 0 15px 0 #649a44;
+}
+.cattext {
+	color: #fff;
+	background: #000;
+	opacity: 0.5;
+	display: block;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	box-shadow: 0 0 15px 0 #999 inset;
+}
+.cat-t {
+	background: url('https://invertarium.net/dev/images/cat-tarantula.jpg') #fff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.cat-scorp {
+	background: url('https://invertarium.net/dev/images/cat-scorpion.jpg') #fff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.cat-spider {
+	background: url('https://invertarium.net/dev/images/cat-spider.jpg') #fff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.cat-mantis {
+	background: url('https://invertarium.net/dev/images/cat-mantis.jpg') #fff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.cat-pede {
+	background: url('https://invertarium.net/dev/images/cat-pede.jpg') #fff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.cat-other {
+	background: url('https://invertarium.net/dev/images/cat-other.jpg') #fff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.cat-ant {
+	background: url('https://invertarium.net/dev/images/cat-ant.jpg') #fff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.cat-feed {
+	background: url('https://invertarium.net/dev/images/cat-dubia.jpg') #fff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.cat-supply {
+	background: url('https://invertarium.net/dev/images/cat-supply.jpg') #fff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/* SEARCH TABLE STYLE */
+
+.results-box {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.results {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #aaaaaa;
+	box-shadow: 0 0 25px 0 #999 inset;
+	border-radius: 10px;
+	float: left;
+	margin: 2px;
+	text-align: center;
+}
+.results:hover {
+	border: 2px solid #7bdf3f;
+	box-shadow: 0 0 25px 0 #999 inset;
+	width: 200px;
+	height: 200px;
+}
+.resultstext {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background: #000;
+	color: #fff;
+	opacity: 0.7;
+	display: block;
+	min-height: 50px;
+	font-size: 15px;
+	text-align: left;
+}
+.results td {
+	border: none;
+	border-collapse: collapse;
+}
+/* FOOTER STUFF */
+
+.footer {
+	background: #c2d5d2;
+	/* For browsers that do not support gradients */
+	background: linear-gradient(to bottom right, #c2d5d2, #e2ecea);
+	/* Standard syntax (must be last) */
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	font-size: 12px;
+	font-family: Tahoma, sans-serif;
+	color: #6b9a91;
+}
+.footer>a:active {
+	color: #64b61d;
+	text-decoration: none;
+}
+.footer>a:visited {
+	color: #64b61d;
+	text-decoration: none;
+}
+.footer>a:hover {
+	color: #64b61d;
+	text-decoration: none;
+}
+.footer>a:link {
+	color: #64b61d;
+	text-decoration: none;
+}
